@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    var nome=prompt("Digite seu nome");
+    //comando confirm
+    var res=confirm("Olá " + nome + " deseja Continuar?");
+    
+   function bar(){
+    alert ("");
+   }
+   //procedimento sem parametro com prompt
+   function soma (){
+    var v1=parseInt(prompt("Digite o valor do primeiro produto"));
+    var v2=parseInt(prompt("Digite o valor do segundo produto"));
+    var v3=parseInt(prompt("Digite o valor do terceiro produto"));
+    var t = v1+v2+v3
+    alert ("O valor total dos 3 produtos é de " +t); 
+    }
+   //Função ela retorna valores para o nome da função
+   //precisa da instrução return
+   //função com parametro 
+function soma3(x,y,b){
+    return x+y+b
+}
+    //chamada das funções
+    bar();
+    bar();
+    bar();
+    soma();
+
+    var v1=parseInt(prompt("Digite um valor"));
+    var v2=parseInt(prompt("Digite outro valor"));
+    var v3=parseInt(prompt("Digite outro valor"));
+    alert ("O resultado da soma 3 é " + soma3 (v1,v2,v3));
+
+</script>
+
+</body>
+</html>

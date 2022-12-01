@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+var nome=prompt("Digite o seu nome");
+//comando confirm
+var res=confirm("Olá " +nome+ ", deseja Continuar?");
+if(res)
+{
+//atribuindo a quilometragem e o valor do combustivel
+var valorCombus=prompt("Digite o valor do combustível");
+//pegando o valor do combustível
+var Quilo=prompt("Digite a sua quilometragem");
+var ValGasto= Quilo/8*valorCombus
+alert("O valor do seu gasto é de "+ValGasto+" reais")
+}   
+</script>
+</body>
+</html>
